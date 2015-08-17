@@ -26,5 +26,8 @@
         <module name="mutation_test_presentation" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mutation_test_presentation" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
