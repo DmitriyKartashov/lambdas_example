@@ -1,10 +1,9 @@
 package ru.kartashov.lambdas;
 
-import org.junit.Test;
-
 import java.util.Arrays;
 import java.util.List;
 
+import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class LambdaExampleTest {
@@ -23,5 +22,15 @@ public class LambdaExampleTest {
         assertEquals("acc", foundValue);
     }
 
+    @Test
+    public void shouldTestHappyPassJ7() {
+        //given
+        List<String> list = Arrays.asList("aa", "acc", "a");
 
+        //when
+        String foundValue = lambdaExample.findLongestStringStartsWithAJ7(list);
+
+        //then
+        assertEquals("acc", foundValue);
+    }
 }
