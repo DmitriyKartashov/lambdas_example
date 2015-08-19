@@ -10,7 +10,7 @@ public class LambdaExample {
     {
         return stringList.stream()
             .filter(s -> s.startsWith("a"))
-            .min((s1, s2) -> s2.length() - s1.length())
+            .max((s1, s2) -> s1.length() - s2.length())
             .orElse("no match");
     }
 
