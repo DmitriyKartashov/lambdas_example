@@ -2,9 +2,6 @@ package ru.kartashov.lambdas;
 
 import java.util.List;
 
-/**
- * @author Dmitrii Kartashov
- */
 public class LambdaExample {
     public String findLongestStringStartsWithA(List<String> stringList)
     {
