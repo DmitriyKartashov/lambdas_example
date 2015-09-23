@@ -23,11 +23,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="mutation_test_presentation" />
+        <module name="lambdas_example" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="mutation_test_presentation" target="1.8" />
+      <module name="lambdas_example" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
